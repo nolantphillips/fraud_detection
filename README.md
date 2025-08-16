@@ -1,1 +1,3 @@
 # fraud_detection
+
+This repository serves as a spot to hold code for a small project to work on Spark. It contains a Python script to generate a live stream of synthetic transaction data to detect potential fraud in transactions. It also contains three notebooks for saving data to a parquet file using spark, then conducting some feature engineering on the data in spark, and then ultimately training a simple Random Forest model for fraud detection. The final model had an ROC-AUC value of 0.779, showing the model was okay with detecting fraud for transaction streamed over the course of three hours. 
